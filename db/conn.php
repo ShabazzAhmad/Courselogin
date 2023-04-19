@@ -10,8 +10,8 @@
     
     try {
         $pdo = new pdo ($dsn, $user, $pass);
-        echo 'joined';
-        
+        // echo 'joined';
+        $pdo->setAttribute(PDO::ERRMODE_EXCEPTION,PDO::ATTR_ERRMODE);
     } catch (PDOException $e) {
         throw new PDOException($e->getMessage());
     }
