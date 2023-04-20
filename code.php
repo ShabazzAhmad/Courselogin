@@ -8,10 +8,19 @@
         echo $fname = trim($_POST['fname']);
         echo $lname = trim($_POST['lname']);
 }
+//include_once 'signupform.php';
 ?>
-<div class="alert alert-success" role="alert">
-    <h1>Welcome! on board <?php echo $fname. ' ' . $lname; ?></h1>
-    <h1>Operation completed, You have successfully signup Please! click the button below to login
-    </h1>
+
+<div class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="alert alert-success" role="alert">
+                <h1>Welcome! on board <?php //echo $fname. ' ' . $lname; ?></h1>
+                <h1>Operation completed, You have successfully signup Please! click the button below to login</h1>
+            </div>
+            <input type="button" value="">
+            <a href="login.php">Login</a>
+        </div>
+    </div>
 </div>
 
