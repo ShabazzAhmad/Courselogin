@@ -18,4 +18,6 @@
 
     
 
+    require_once 'user.php';
+    $vuser = new user ($pdo);
 ?>
