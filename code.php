@@ -18,8 +18,8 @@
                 <h1>Welcome! on board <?php //echo $fname. ' ' . $lname; ?></h1>
                 <h1>Operation completed, You have successfully signup Please! click the button below to login</h1>
             </div>
-            <input type="button" value="">
-            <a href="login.php">Login</a>
+            <button type="button" class="btn"><a href="login.php">Login</a></button>
+            
         </div>
     </div>
 </div>
